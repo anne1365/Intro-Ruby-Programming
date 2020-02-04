@@ -1,4 +1,4 @@
-user_floats = Array.new #stores user input
+user_floats = Array.new #stores user inputted floats
 squares = Array.new #will present squared floats
 
 puts "Please enter a float: "

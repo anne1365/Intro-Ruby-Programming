@@ -1,16 +1,18 @@
+#method finds factorials of user-supplied number
 def factorializer(input_num)
   num = input_num - 1
 
   while num > 0
-    num = num * input_num
+    input_num = num * input_num
     num -= 1
   end
 
-  puts num
+  return input_num
 end
 
 ##TESTS##
-factorializer (5) #120
-factorializer (6) #720
-factorializer (7) #5040
-factorializer (8) #40320
+puts factorializer (5) #120
+puts factorializer (6) #720
+puts factorializer (7) #5040
+puts factorializer (8) #40320
+puts factorializer (54)

@@ -1,3 +1,4 @@
+#Squares 3 floats provided by user who calls method
 def squared_floats(num_one, num_two, num_three)
   puts num_one.to_f ** 2
   puts num_two.to_f ** 2
