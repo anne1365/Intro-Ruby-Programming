@@ -19,7 +19,7 @@ class Hashy
 
   def set(key, value) #void set(int key, String value) { 
     #object_id(key) --> int
-    #new key val object
+    #new key val objectTK
     #add int and key value object to hash array
   end
 end
