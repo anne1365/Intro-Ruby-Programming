@@ -5,7 +5,7 @@ class MyClass
   attr_writer :Value
 end
 
-hash_one = {one: 1, two: 2}
+hash_one = {4: MyClass.new, 4: MyClass.new}
 hash_two = {two: 2}
 
 arr_one = [1, 2, 3, 4]
